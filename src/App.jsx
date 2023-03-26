@@ -1,12 +1,11 @@
 import './App.css'
-import RainbowRing from './RainbowRing'
+import ParticleGenerator from './ParticleGenerator'
 
 function App() {
 
   return (
     <div>
-      <RainbowRing xPos={100} yPos={100} />
-      <RainbowRing xPos={500} yPos={500} />
+      <ParticleGenerator />
     </div>
   )
 }
