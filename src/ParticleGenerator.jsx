@@ -13,10 +13,9 @@ const ParticleGenerator = () => {
 
   };
 
-  const handleClick = () => {
-
-    let xPos = Math.random() * window.innerWidth;
-    let yPos = Math.random() * window.innerHeight;
+  const handleClick = (event) => {
+    let xPos = event.clientX;
+    let yPos = event.clientY;
 
     let particleToAdd = <RainbowRing xPos={xPos} yPos={yPos} />;
 
