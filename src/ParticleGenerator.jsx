@@ -17,7 +17,7 @@ const ParticleGenerator = () => {
     let xPos = event.clientX - 50;
     let yPos = event.clientY - 50;
 
-    let particleToAdd = <RainbowRing xPos={xPos} yPos={yPos} />;
+    let particleToAdd = <RainbowRing xPos={xPos} yPos={yPos} xVel={5} yVel={10} />;
 
     let newParticles = [...particles]
 

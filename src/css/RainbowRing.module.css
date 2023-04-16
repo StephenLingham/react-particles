@@ -4,4 +4,5 @@
   height: 100px;
   border-radius: 50%;
   box-shadow: 0 0 0 5px red, 0 0 0 10px orange, 0 0 0 15px yellow, 0 0 0 20px green, 0 0 0 25px blue, 0 0 0 30px purple;
+  mix-blend-mode: screen;
 }
